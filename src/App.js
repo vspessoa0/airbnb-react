@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import { Card } from './components'
+import { Navbar, Hero } from './components'
 
 const App = () => {
   return (
-    <div className='container'>
-      <Card />
+    <div>
+      <Navbar />
+      <Hero />
     </div>
   )
 }
