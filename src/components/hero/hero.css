@@ -1,0 +1,30 @@
+.hero {
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.hero--text {
+    margin-top: 0;
+    margin-bottom: 49px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 320px;
+    color: #222;
+}
