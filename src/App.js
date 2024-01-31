@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import image1 from './images/image1.png';
+import data from './data';
 
 import { Navbar, Hero, Card } from './components'
 
