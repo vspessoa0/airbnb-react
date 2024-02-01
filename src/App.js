@@ -7,10 +7,11 @@ import { Navbar, Hero, Card } from './components'
 const App = () => {
 
   const cards = data.map(item => {
+    const imgPath = process.env.PUBLIC_URL + '/images/' + item.coverImg;
     return (
       <Card
         key={item.id}
-        img={item.coverImg}
+        img={imgPath}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.reviewCount}
