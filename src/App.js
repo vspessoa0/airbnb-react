@@ -12,11 +12,7 @@ const App = () => {
       <Card
         key={item.id}
         img={imgPath}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.reviewCount}
-        title={item.title}
-        price={item.price}
+        item={item}
       />
     )
   })
